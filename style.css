@@ -110,13 +110,15 @@
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.267);
-    min-width: 5rem;
+    min-width: fit-content;
     max-width: 10rem;
     align-items: center;
     color: white;
-    padding: 1rem 3rem;
+    padding: 0.2rem 1rem;
     border-radius: 8px;
+    margin: 2rem;
     margin-top: -2rem;
+
 }
 
 .points{
@@ -126,7 +128,7 @@
     align-self: center;
     justify-items: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     column-rule: 5px solid white;
 
     /* column-count: 2;
@@ -142,6 +144,6 @@
 
 .winX,.winY{
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 400;
     
 }
