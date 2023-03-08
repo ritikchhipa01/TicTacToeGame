@@ -85,7 +85,20 @@
     border-right: 2px solid goldenrod;
 }
 
+.box0{
+    border-top-left-radius: .5rem;
+}
 
+.box2{
+    border-top-right-radius: .5rem;
+}
+
+.box6{
+    border-bottom-left-radius: .5rem;
+}
+.box8{
+    border-bottom-right-radius: .5rem;
+}
 /* .button{
     width: fit-content;
     margin-left: 50vw;
