@@ -9,8 +9,16 @@
 #wrapper{
     width: 100vw;
     height: 100vh;
-    background-image: url(./assets/gradient-bg.jpg);
-    background-size: cover;
+    background: hsla(205, 46%, 10%, 1);
+
+    background: linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E1C26", endColorstr="#2A454B", GradientType=1 );
+        background-size: cover;
     overflow-x: hidden;
     display: grid;
     place-items: center;
@@ -20,12 +28,13 @@
     background-color: rgba(255, 255, 255, 0.21);
     width: fit-content;
     padding: 4px 10px;
-    border-radius: 5px;
+    border-radius: 1rem;
     /* margin: 0 auto; */
     margin-top: 5vh;
     font-size: 1.3rem;
     font-weight: bold;
     color: #fff;
+    border: 2px solid goldenrod;
     
 }
 
@@ -42,7 +51,7 @@
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.228);
 
-    
+    border: 2px solid goldenrod;
     /* margin: 45vh auto;
     transform: translateY(-50%);
     margin-bottom: 0; */
@@ -63,17 +72,17 @@
 }
 .box0,.box1,.box3,.box4{
     
-    border-right: 2px solid white;
-    border-bottom: 2px solid white;
+    border-right: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
 }
 
 .box2,.box5{
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid goldenrod;
    
 }
 
 .box6,.box7{
-    border-right: 2px solid white;
+    border-right: 2px solid goldenrod;
 }
 
 
@@ -87,8 +96,10 @@
     border-radius: 1rem;
     background-color: rgba(255, 255, 255, 0.176);
     padding: .5rem 2rem;
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 2.754);
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    font-weight: 600;
+    /* border: 1px solid rgba(255, 255, 255, 2.754); */
     cursor: pointer;
     display: none;
 }
@@ -98,8 +109,16 @@
 }
 
 .win{
-    background-color: rgba(0, 128, 0, 0.447);
-}
+    /* background-color: rgba(2, 106, 138, 0.447); */
+    background: hsla(50, 57%, 47%, 1);
+
+    background: linear-gradient(90deg, hsla(50, 57%, 47%, 1) 0%, hsla(56, 83%, 82%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(50, 57%, 47%, 1) 0%, hsla(56, 83%, 82%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(50, 57%, 47%, 1) 0%, hsla(56, 83%, 82%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BDA734", endColorstr="#F7F2AB", GradientType=1 );}
 
 .heading{
     font-size: 1.5rem;
@@ -118,6 +137,7 @@
     border-radius: 8px;
     margin: 2rem;
     margin-top: -2rem;
+    border: 3px solid goldenrod;
 
 }
 
